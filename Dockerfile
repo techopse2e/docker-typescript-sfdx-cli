@@ -5,4 +5,5 @@ RUN apk add git
 RUN npm install -g typescript
 RUN npm install -g tsx
 RUN npm install -g sfdx-cli
+RUN npm install @salesforce/cli -g
 RUN echo y | sfdx plugins:install sfdx-git-delta
